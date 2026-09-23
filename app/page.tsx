@@ -1,5 +1,6 @@
 import Link from "next/link"
 import HackerBio from "@/components/HackerBio"
+import GlitchName from "@/components/GlitchName"
 
 export default function Home() {
   return (
@@ -15,9 +16,7 @@ export default function Home() {
       {/* Terminal Body */}
       <div className="bg-black/80 border-x border-b border-green-500/30 rounded-b-xl p-4 sm:p-6 sm:p-8 font-mono text-left mb-8 sm:mb-12 shadow-lg shadow-green-950/20">
         <div className="text-gray-500 text-xs sm:text-sm mb-1.5 sm:mb-2">$ whoami</div>
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-white leading-tight">
-          Yovie Muhammad Rizki
-        </h1>
+        <GlitchName />
         <div className="text-gray-500 text-xs sm:text-sm mb-1.5 sm:mb-2">$ cat status.json</div>
         <div className="bg-black/60 p-3 sm:p-4 rounded-lg border border-green-500/20 text-green-400 text-[10px] sm:text-xs md:text-sm mb-4 sm:mb-6">
           <span className="text-gray-500">{"{"}</span><br />
