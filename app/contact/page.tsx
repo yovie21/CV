@@ -1,9 +1,11 @@
 import Link from "next/link"
 import HackerText from "@/components/HackerText"
+import PasswordWall from "@/components/PasswordWall"
 
 export default function ContactPage() {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-20 font-mono">
+    <PasswordWall>
+      <div className="max-w-5xl mx-auto px-4 py-20 font-mono">
       <div className="text-center mb-16">
         <div className="inline-block bg-green-500/10 text-green-400 text-xs px-3 py-1 rounded border border-green-500/30 mb-4">
           $ ./contact_me.sh
@@ -166,5 +168,6 @@ export default function ContactPage() {
         </div>
       </div>
     </div>
+    </PasswordWall>
   )
 }

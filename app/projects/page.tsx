@@ -1,4 +1,5 @@
 import Link from "next/link"
+import PasswordWall from "@/components/PasswordWall"
 
 export default function ProjectsPage() {
   const projects = [
@@ -55,7 +56,8 @@ export default function ProjectsPage() {
   ]
 
   return (
-    <div className="max-w-6xl mx-auto px-3 sm:px-4 py-12 sm:py-20">
+    <PasswordWall>
+      <div className="max-w-6xl mx-auto px-3 sm:px-4 py-12 sm:py-20">
       <div className="text-center mb-10 sm:mb-16">
         <div className="inline-block bg-green-500/10 text-green-400 text-[10px] sm:text-xs font-mono px-2.5 sm:px-3 py-1 rounded-full border border-green-500/20 mb-3 sm:mb-4">
           $ ls -la ./top-repositories
@@ -112,5 +114,6 @@ export default function ProjectsPage() {
         ))}
       </div>
     </div>
+    </PasswordWall>
   )
 }
