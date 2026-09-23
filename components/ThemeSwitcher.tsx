@@ -27,10 +27,12 @@ const themes = {
     '--scanline': 'rgba(0,255,255,0.03)',
     '--crt-distortion': '#0ff',
   },
-};
+} as const;
+
+type ThemeKey = keyof typeof themes;
 
 export default function ThemeSwitcher() {
-  const [current, setCurrent] = useState('green');
+  const [current, setCurrent] = useState<ThemeKey>('green');
 
   useEffect(() => {
     const root = document.documentElement;
@@ -42,7 +44,7 @@ export default function ThemeSwitcher() {
 
   return (
     <div className="fixed bottom-4 left-4 z-50 flex gap-2">
-      {Object.keys(themes).map((t) => (
+      {(Object.keys(themes) as ThemeKey[]).map((t) => (
         <button
           key={t}
           onClick={() => setCurrent(t)}
