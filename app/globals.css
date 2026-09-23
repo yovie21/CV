@@ -340,6 +340,3 @@ html {
 }
 
 /* Mobile-first container adjustments */
-@media (min-width: 640px) {
-  .sm\\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
-}
