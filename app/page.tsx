@@ -15,19 +15,22 @@ export default function Home() {
       <div className="bg-slate-950 border-x border-b border-slate-800 rounded-b-xl p-8 font-mono text-left mb-12 shadow-2xl">
         <div className="text-slate-500 mb-2">$ whoami</div>
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-white">
-          Yovie Muhammad
+          Yovie Muhammad Rizki
         </h1>
         <div className="text-slate-500 mb-2">$ cat status.json</div>
         <div className="bg-slate-900/50 p-4 rounded-lg border border-slate-800/80 text-cyan-400 text-sm mb-6">
           <span className="text-slate-500 font-sans">{"{"}</span><br />
-          &nbsp;&nbsp;<span className="text-purple-400">"role"</span>: <span className="text-emerald-400">"Software Engineer / Web Developer"</span>,<br />
-          &nbsp;&nbsp;<span className="text-purple-400">"stack"</span>: [<span className="text-emerald-400">"Next.js"</span>, <span className="text-emerald-400">"TypeScript"</span>, <span className="text-emerald-400">"Tailwind"</span>, <span className="text-emerald-400">"Node.js"</span>],<br />
-          &nbsp;&nbsp;<span className="text-purple-400">"status"</span>: <span className="text-emerald-400">"Open to Remote / Fulltime Opportunities"</span><br />
+          &nbsp;&nbsp;<span className="text-purple-400">"role"</span>: <span className="text-emerald-400">"Fresh Graduate — Teknik Informatika"</span>,<br />
+          &nbsp;&nbsp;<span className="text-purple-400">"location"</span>: <span className="text-emerald-400">"Sukoharjo, Jawa Tengah"</span>,<br />
+          &nbsp;&nbsp;<span className="text-purple-400">"stack"</span>: [<span className="text-emerald-400">"PHP"</span>, <span className="text-emerald-400">"Laravel"</span>, <span className="text-emerald-400">"React.js"</span>, <span className="text-emerald-400">"Flutter"</span>],<br />
+          &nbsp;&nbsp;<span className="text-purple-400">"status"</span>: <span className="text-emerald-400">"Open to Work — IT / Developer"</span><br />
           <span className="text-slate-500 font-sans">{"}"}</span>
         </div>
         <div className="text-slate-500 mb-2">$ echo $BIO</div>
         <p className="text-slate-300 text-base md:text-lg mb-8 leading-relaxed font-sans">
-          Membangun aplikasi web modern dengan fokus pada performa, arsitektur bersih, dan pengalaman pengguna yang responsif.
+          Fresh graduate Teknik Informatika dengan pengalaman 5+ tahun di customer service dan retail. 
+          Saat ini fokus membangun karir di bidang IT dan pengembangan aplikasi. 
+          Cepat belajar, terbiasa kerja tim, dan antusias dengan teknologi web & mobile.
         </p>
 
         <div className="flex flex-wrap gap-4 font-sans">
