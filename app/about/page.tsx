@@ -5,6 +5,7 @@ export default function AboutPage() {
     "Backend": ["PHP", "Laravel", "MySQL"],
     "Frontend": ["React.js", "JavaScript", "HTML", "CSS"],
     "Mobile": ["Flutter", "Dart"],
+    "AI Agents": ["9Router", "Hermes Agent"],
     "Soft Skills": ["Customer Service", "Teamwork"],
   }
 
@@ -27,8 +28,7 @@ export default function AboutPage() {
             <p className="text-slate-300 leading-relaxed text-base md:text-lg">
               Software Engineer dengan background unik: 5+ tahun pengalaman di customer service dan retail 
               (PT. Assalaam Niaga Utama, PT. Delamibrands Kharisma Busana) sebelum beralih ke dunia teknologi. 
-              Lulusan Teknik Informatika S1 (Universitas Duta Bangsa, 2026) dengan 7 proyek akademis mulai dari 
-              sistem POS Laravel, aplikasi mobile Flutter, hingga website berbasis React.js. 
+              Lulusan Teknik Informatika S1 (Universitas Duta Bangsa, 2026). 
               Menguasai full-stack development: Next.js, React.js, Laravel, Flutter, dan database MySQL. 
               Terbiasa menyelesaikan masalah end-to-end—dari desain database, pengembangan API, hingga deployment. 
               Cepat belajar, detail-oriented, dan siap berkontribusi dalam tim engineering.
