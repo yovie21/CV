@@ -1,16 +1,19 @@
 import Link from "next/link"
+import HackerText from "@/components/HackerText"
 
 export default function ContactPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-20">
       <div className="text-center mb-16">
-        <div className="inline-block bg-cyan-500/10 text-cyan-400 text-xs font-mono px-3 py-1 rounded-full border border-cyan-500/20 mb-4">
+        <div className="inline-block bg-green-500/10 text-green-400 text-xs font-mono px-3 py-1 rounded-full border border-green-500/20 mb-4">
           $ ./contact_me.sh
         </div>
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">
-          Hubungi <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Saya</span>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight font-mono">
+          <HackerText text="Hubungi Saya" tag="span" className="text-green-400" />
         </h1>
-        <p className="text-slate-400 mt-2 font-mono text-sm">Selalu terbuka untuk kolaborasi, freelance, atau ngobrol soal teknologi.</p>
+        <p className="text-gray-500 mt-2 font-mono text-sm">
+          <HackerText text="Selalu terbuka untuk kolaborasi, freelance, atau ngobrol soal teknologi." tag="span" />
+        </p>
       </div>
 
       <div className="grid lg:grid-cols-2 gap-12">
