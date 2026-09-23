@@ -35,7 +35,8 @@ export default function ProjectsPage() {
       description: "Aplikasi manajemen keuangan pribadi dengan fitur tabungan dan catatan pengeluaran.",
       tech: ["Flutter", "Dart", "Firebase"],
       stats: "Mobile Finance",
-      github: "https://github.com/yovie21/Ruang-Saku"
+      github: "https://github.com/yovie21/Ruang-Saku",
+      live: "https://yovie21.github.io/Ruang-Saku/"
     },
     {
       title: "aplikasisales",
@@ -98,14 +99,26 @@ export default function ProjectsPage() {
                 ))}
               </div>
 
-              <a 
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-full bg-slate-800 hover:bg-cyan-600 text-slate-200 hover:text-white py-2.5 px-4 rounded-lg font-mono text-xs font-medium transition-all duration-200 border border-slate-700 hover:border-cyan-500"
-              >
-                <span>View Source Code →</span>
-              </a>
+              <div className="flex flex-wrap gap-2">
+                <a 
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center w-full sm:w-auto bg-slate-800 hover:bg-cyan-600 text-slate-200 hover:text-white py-2.5 px-4 rounded-lg font-mono text-xs font-medium transition-all duration-200 border border-slate-700 hover:border-cyan-500"
+                >
+                  <span>View Source Code →</span>
+                </a>
+                {project.live && (
+                  <a 
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full sm:w-auto bg-cyan-500 hover:bg-cyan-400 text-slate-950 py-2.5 px-4 rounded-lg font-mono text-xs font-medium transition-all duration-200 border border-cyan-500"
+                  >
+                    <span>View Live Demo →</span>
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         ))}
