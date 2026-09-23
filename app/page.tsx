@@ -1,4 +1,5 @@
 import Link from "next/link"
+import HackerBio from "@/components/HackerBio"
 
 export default function Home() {
   return (
@@ -27,14 +28,7 @@ export default function Home() {
           <span className="text-slate-500 font-sans">{"}"}</span>
         </div>
         <div className="text-slate-500 mb-2">$ echo $BIO</div>
-                <p className="text-slate-300 text-base md:text-lg mb-8 leading-relaxed font-sans">
-                  Software Engineer dengan background unik: 5+ tahun pengalaman di retail 
-                  (PT. Assalaam Niaga Utama, PT. Delamibrands Kharisma Busana) sebelum beralih ke dunia teknologi. 
-                  Lulusan Teknik Informatika S1 (Universitas Duta Bangsa, 2026).
-                  Menguasai full-stack development: Next.js, React.js, Laravel, Flutter, dan database MySQL. 
-                  Terbiasa menyelesaikan masalah end-to-end—dari desain database, pengembangan API, hingga deployment. 
-                  Cepat belajar, detail-oriented, dan siap berkontribusi dalam tim engineering.
-                </p>
+        <HackerBio />
 
         <div className="flex flex-wrap gap-4 font-sans">
           <Link 
