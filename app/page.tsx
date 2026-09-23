@@ -7,6 +7,9 @@ import TypewriterJSON from "@/components/TypewriterJSON"
 import InteractiveTerminal from "@/components/InteractiveTerminal"
 import VisitorCounter from "@/components/VisitorCounter"
 import KonamiCode from "@/components/KonamiCode"
+import GithubActivity from "@/components/GithubActivity"
+import HackerTyper from "@/components/HackerTyper"
+import SoundEffects from "@/components/SoundEffects"
 import { useState, useEffect } from "react"
 
 export default function Home() {
@@ -43,6 +46,7 @@ export default function Home() {
 
   return (
     <>
+      <SoundEffects />
       {!booted && (
         <div className="fixed inset-0 z-[100] bg-black flex flex-col items-center justify-center p-4 font-mono">
           <div className="w-full max-w-2xl">
@@ -92,6 +96,8 @@ export default function Home() {
               </div>
 
               <InteractiveTerminal />
+              <GithubActivity />
+              <HackerTyper />
 
               <div className="mt-6 sm:mt-8 pt-4 sm:pt-6 border-t border-green-500/10">
                 <div className="text-gray-500 text-[10px] sm:text-xs mb-3">$ ls ./pages/</div>
