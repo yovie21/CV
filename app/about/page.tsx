@@ -25,11 +25,13 @@ export default function AboutPage() {
           <div className="bg-slate-900/80 backdrop-blur border border-slate-800 rounded-xl p-8">
             <div className="text-slate-500 font-mono text-xs mb-4">$ echo $BIO</div>
             <p className="text-slate-300 leading-relaxed text-base md:text-lg">
-              Fresh graduate Teknik Informatika dari Sukoharjo, Jawa Tengah. 
-              Memiliki pengalaman 5+ tahun di bidang customer service dan retail, 
-              kini beralih fokus ke karir IT/developer. 
-              Terbiasa bekerja dalam tim, cepat belajar, dan memiliki ketertarikan 
-              pada pengembangan web (Laravel, React.js) serta aplikasi mobile (Flutter).
+              Software Engineer dengan background unik: 5+ tahun pengalaman di customer service dan retail 
+              (PT. Assalaam Niaga Utama, PT. Delamibrands Kharisma Busana) sebelum beralih ke dunia teknologi. 
+              Lulusan Teknik Informatika S1 (Universitas Duta Bangsa, 2026) dengan 7 proyek akademis mulai dari 
+              sistem POS Laravel, aplikasi mobile Flutter, hingga website berbasis React.js. 
+              Menguasai full-stack development: Next.js, React.js, Laravel, Flutter, dan database MySQL. 
+              Terbiasa menyelesaikan masalah end-to-end—dari desain database, pengembangan API, hingga deployment. 
+              Cepat belajar, detail-oriented, dan siap berkontribusi dalam tim engineering.
             </p>
           </div>
 
