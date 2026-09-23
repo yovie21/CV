@@ -5,35 +5,35 @@ export default function ProjectsPage() {
     {
       title: "Kas-Tracker-Project-Uas",
       desc: "Sistem pelacakan keuangan untuk tugas akhir.",
-      tech: ["React", "JS", "Tailwind"],
+      tech: ["PHP", "Laravel", "Blade", "Tailwind"],
       type: "Academic",
       github: "https://github.com/yovie21/Kas-Tracker-Project-Uas"
     },
     {
       title: "CV",
       desc: "Portfolio website pribadi bertema terminal.",
-      tech: ["Next.js", "TS", "Tailwind"],
+      tech: ["Next.js", "TypeScript", "Tailwind"],
       type: "Portfolio",
       github: "https://github.com/yovie21/CV"
     },
     {
       title: "kasir-bazar",
       desc: "Sistem kasir sederhana untuk operasional bazar.",
-      tech: ["JS", "HTML", "CSS"],
+      tech: ["PHP", "Laravel", "Blade"],
       type: "POS",
       github: "https://github.com/yovie21/kasir-bazar"
     },
     {
       title: "Aplikasi-Personal-Expense",
       desc: "Pencatatan pengeluaran pribadi untuk manajemen keuangan.",
-      tech: ["React", "JS", "CSS"],
+      tech: ["PHP", "Laravel", "Blade"],
       type: "Finance",
       github: "https://github.com/yovie21/Aplikasi-Personal-Expense"
     },
     {
       title: "Ruang-Saku",
       desc: "Manajemen keuangan pribadi dengan fitur tabungan.",
-      tech: ["Flutter", "Dart", "Firebase"],
+      tech: ["TypeScript", "React", "Tailwind"],
       type: "Mobile",
       github: "https://github.com/yovie21/Ruang-Saku",
       live: "https://ruang-saku-peach.vercel.app"
@@ -41,14 +41,14 @@ export default function ProjectsPage() {
     {
       title: "aplikasisales",
       desc: "Pencatatan penjualan dan manajemen stok UMKM.",
-      tech: ["React Native", "Expo", "TS"],
+      tech: ["React Native", "Expo", "TypeScript"],
       type: "Sales",
       github: "https://github.com/yovie21/aplikasisales"
     },
     {
       title: "api-laravel",
       desc: "REST API backend untuk aplikasi mobile.",
-      tech: ["Laravel", "PHP", "MySQL"],
+      tech: ["PHP", "Laravel", "MySQL"],
       type: "Backend",
       github: "https://github.com/yovie21/api-laravel"
     },
