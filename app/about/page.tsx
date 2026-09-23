@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function AboutPage() {
   const skills = {
     "Backend": ["PHP", "Laravel", "MySQL"],
-    "Frontend": ["React.js", "JavaScript", "HTML", "CSS"],
+    "Frontend": ["Next.js", "React.js", "JavaScript", "HTML", "CSS"],
     "Mobile": ["Flutter", "Dart"],
     "AI Agents": ["9Router", "Hermes Agent"],
     "Soft Skills": ["Teamwork"],

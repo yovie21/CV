@@ -20,7 +20,10 @@ export default function ContactPage() {
         {/* Contact Form */}
         <div className="bg-black/80 border border-green-500/30 rounded-lg p-6 shadow-lg shadow-green-950/20">
           <div className="text-gray-500 text-xs mb-6">$ nano message.txt</div>
-          <form className="space-y-4" action="https://formspree.io/f/your-form-id" method="POST">
+          <form className="space-y-4" action="https://formsubmit.co/yovie6513@gmail.com" method="POST">
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://yovie21.github.io/CV/contact/" />
             <div>
               <label htmlFor="name" className="block text-xs text-green-500 mb-1">{">"} Nama</label>
               <input
