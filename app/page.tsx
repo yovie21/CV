@@ -1,6 +1,7 @@
 import Link from "next/link"
 import HackerBio from "@/components/HackerBio"
 import GlitchName from "@/components/GlitchName"
+import TypewriterJSON from "@/components/TypewriterJSON"
 
 export default function Home() {
   return (
@@ -18,14 +19,7 @@ export default function Home() {
         <div className="text-gray-500 text-xs sm:text-sm mb-1.5 sm:mb-2">$ whoami</div>
         <GlitchName />
         <div className="text-gray-500 text-xs sm:text-sm mb-1.5 sm:mb-2">$ cat status.json</div>
-        <div className="bg-black/60 p-3 sm:p-4 rounded-lg border border-green-500/20 text-green-400 text-[10px] sm:text-xs md:text-sm mb-4 sm:mb-6">
-          <span className="text-gray-500">{"{"}</span><br />
-          &nbsp;&nbsp;<span className="text-purple-400">"role"</span>: <span className="text-green-400">"Software Engineer"</span>,<br />
-          &nbsp;&nbsp;<span className="text-purple-400">"location"</span>: <span className="text-green-400">"Sukoharjo, Jawa Tengah"</span>,<br />
-          &nbsp;&nbsp;<span className="text-purple-400">"stack"</span>: [<span className="text-green-400">"Next.js"</span>, <span className="text-green-400">"PHP"</span>, <span className="text-green-400">"Laravel"</span>, <span className="text-green-400">"React.js"</span>, <span className="text-green-400">"Flutter"</span>],<br />
-          &nbsp;&nbsp;<span className="text-purple-400">"status"</span>: <span className="text-green-400">"Open to Work — IT / Developer"</span><br />
-          <span className="text-gray-500">{"}"}</span>
-        </div>
+        <TypewriterJSON />
         <div className="text-gray-500 text-xs sm:text-sm mb-1.5 sm:mb-2">$ echo $BIO</div>
         <HackerBio />
 
