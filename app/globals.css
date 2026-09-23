@@ -302,3 +302,44 @@ body::after {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--terminal-bright-green);
 }
+
+/* Responsive typography & spacing */
+html {
+  font-size: clamp(12px, 2.5vw, 16px);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --nav-font: 0.7rem;
+    --title-font: 1.5rem;
+    --card-padding: 1rem;
+  }
+  .max-w-5xl, .max-w-6xl {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  .grid.md\:grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+  .grid.lg\:grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+  .grid.lg\:grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .max-w-5xl { max-width: 100%; }
+  .max-w-6xl { max-width: 100%; }
+  .text-3xl { font-size: 1.2rem; }
+  .text-4xl { font-size: 1.3rem; }
+  .text-5xl { font-size: 1.4rem; }
+  .text-6xl { font-size: 1.5rem; }
+  .px-4 { padding-left: 0.5rem; padding-right: 0.5rem; }
+}
+
+/* Mobile-first container adjustments */
+@media (min-width: 640px) {
+  .sm\\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+}

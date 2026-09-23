@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
 
-export const metadata: Metadata = {
+export  const metadata: Metadata = {
   title: "Yovie Muhammad | Software Engineer",
-  description: "Portfolio Yovie Muhammad — Next.js, TypeScript, Node.js",
+  description: "Portfolio Yovie Muhammad — Next.js, TypeScript, Laravel, Flutter",
 };
 
 const nav = [
@@ -20,19 +20,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id">
-      <body className="min-h-screen text-slate-100 flex flex-col">
-        <nav className="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/80 backdrop-blur-md">
-          <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-            <Link href="/" className="font-mono text-sm text-cyan-400 hover:text-cyan-300">
-              yovie21@dev<span className="text-slate-500">:~$</span>
+    <html lang="id" className="scroll-smooth">
+      <body className="min-h-screen text-gray-300 flex flex-col font-mono">
+        <nav className="sticky top-0 z-50 border-b border-green-500/20 bg-black/80">
+          <div className="max-w-6xl mx-auto px-3 sm:px-4 py-2 sm:py-3 flex items-center justify-between">
+            <Link href="/" className="font-mono text-xs sm:text-sm text-green-400 hover:text-green-300">
+              yovie21@dev<span className="text-gray-600">:~$</span>
             </Link>
-            <div className="flex gap-1">
+            <div className="flex flex-wrap gap-0.5 sm:gap-1">
               {nav.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="font-mono text-xs text-slate-400 hover:text-cyan-400 px-3 py-2 rounded-md hover:bg-slate-900"
+                  className="font-mono text-[10px] sm:text-xs text-gray-500 hover:text-green-400 px-2 py-1.5 rounded hover:bg-green-500/10 transition-all"
                 >
                   ./{item.label}
                 </Link>
@@ -40,9 +40,9 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
-        <main className="flex-1">{children}</main>
-        <footer className="py-8 text-center text-slate-500 border-t border-slate-900 font-mono text-xs">
-          <p>© {new Date().getFullYear()} yovie21 · built with Next.js + Tailwind</p>
+        <main className="flex-1 w-full">{children}</main>
+        <footer className="py-4 sm:py-6 text-center text-gray-600 border-t border-green-500/10 font-mono text-[10px] sm:text-xs">
+          <p>© {new Date().getFullYear()} yovie21 • built with Next.js + Tailwind</p>
         </footer>
       </body>
     </html>
