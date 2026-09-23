@@ -20,9 +20,9 @@ export default function Home() {
         <div className="text-slate-500 mb-2">$ cat status.json</div>
         <div className="bg-slate-900/50 p-4 rounded-lg border border-slate-800/80 text-cyan-400 text-sm mb-6">
           <span className="text-slate-500 font-sans">{"{"}</span><br />
-          &nbsp;&nbsp;<span className="text-purple-400">"role"</span>: <span className="text-emerald-400">"Fresh Graduate — Teknik Informatika"</span>,<br />
+          &nbsp;&nbsp;<span className="text-purple-400">"role"</span>: <span className="text-emerald-400">"Software Engineer"</span>,<br />
           &nbsp;&nbsp;<span className="text-purple-400">"location"</span>: <span className="text-emerald-400">"Sukoharjo, Jawa Tengah"</span>,<br />
-          &nbsp;&nbsp;<span className="text-purple-400">"stack"</span>: [<span className="text-emerald-400">"PHP"</span>, <span className="text-emerald-400">"Laravel"</span>, <span className="text-emerald-400">"React.js"</span>, <span className="text-emerald-400">"Flutter"</span>],<br />
+          &nbsp;&nbsp;<span className="text-purple-400">"stack"</span>: [<span className="text-emerald-400">"Next.js"</span>, <span className="text-emerald-400">"PHP"</span>, <span className="text-emerald-400">"Laravel"</span>, <span className="text-emerald-400">"React.js"</span>, <span className="text-emerald-400">"Flutter"</span>],<br />
           &nbsp;&nbsp;<span className="text-purple-400">"status"</span>: <span className="text-emerald-400">"Open to Work — IT / Developer"</span><br />
           <span className="text-slate-500 font-sans">{"}"}</span>
         </div>

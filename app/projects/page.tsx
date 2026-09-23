@@ -36,7 +36,7 @@ export default function ProjectsPage() {
       tech: ["Flutter", "Dart", "Firebase"],
       stats: "Mobile Finance",
       github: "https://github.com/yovie21/Ruang-Saku",
-      live: "https://yovie21.github.io/Ruang-Saku/"
+      live: "https://ruang-saku-peach.vercel.app"
     },
     {
       title: "aplikasisales",
