@@ -26,7 +26,7 @@ export default function AboutPage() {
           <div className="bg-slate-900/80 backdrop-blur border border-slate-800 rounded-xl p-8">
             <div className="text-slate-500 font-mono text-xs mb-4">$ echo $BIO</div>
             <p className="text-slate-300 leading-relaxed text-base md:text-lg">
-              Software Engineer dengan background unik: 5+ tahun pengalaman di customer service dan retail 
+              Software Engineer dengan background unik: 5+ tahun pengalaman di retail 
               (PT. Assalaam Niaga Utama, PT. Delamibrands Kharisma Busana) sebelum beralih ke dunia teknologi. 
               Lulusan Teknik Informatika S1 (Universitas Duta Bangsa, 2026). 
               Menguasai full-stack development: Next.js, React.js, Laravel, Flutter, dan database MySQL. 

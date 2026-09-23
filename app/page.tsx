@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         <div className="text-slate-500 mb-2">$ echo $BIO</div>
                 <p className="text-slate-300 text-base md:text-lg mb-8 leading-relaxed font-sans">
-                  Software Engineer dengan background unik: 5+ tahun pengalaman di customer service dan retail 
+                  Software Engineer dengan background unik: 5+ tahun pengalaman di retail 
                   (PT. Assalaam Niaga Utama, PT. Delamibrands Kharisma Busana) sebelum beralih ke dunia teknologi. 
                   Lulusan Teknik Informatika S1 (Universitas Duta Bangsa, 2026).
                   Menguasai full-stack development: Next.js, React.js, Laravel, Flutter, dan database MySQL. 
