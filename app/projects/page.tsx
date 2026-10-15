@@ -5,9 +5,11 @@ export default function ProjectsPage() {
   const projects = [
     {
       title: "Warungku",
-      desc: "Aplikasi manajemen warung untuk mengelola produk, stok, penjualan, pembelian, pemasok, dan laporan. Dibuat dengan Flutter dan API Next.js.",
+      desc: "Aplikasi manajemen warung untuk mengelola produk, stok, penjualan, pembelian, pemasok, dan laporan. Aplikasi Flutter terhubung ke backend Next.js.",
       tech: ["Flutter", "Dart", "Next.js", "TypeScript", "Prisma", "MySQL"],
       type: "UMKM",
+      github: "https://github.com/yovie21/warungku",
+      live: "https://warungku-ymr4.vercel.app",
     },
     {
       title: "Kas-Tracker-Project-Uas",
