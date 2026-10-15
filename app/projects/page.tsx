@@ -9,7 +9,6 @@ export default function ProjectsPage() {
       tech: ["Flutter", "Dart", "Next.js", "TypeScript", "Prisma", "MySQL"],
       type: "UMKM",
       github: "https://github.com/yovie21/warungku",
-      live: "https://warungku-ymr4.vercel.app",
     },
     {
       title: "Kas-Tracker-Project-Uas",
