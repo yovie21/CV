@@ -4,6 +4,12 @@ import PasswordWall from "@/components/PasswordWall"
 export default function ProjectsPage() {
   const projects = [
     {
+      title: "Warungku",
+      desc: "Aplikasi manajemen warung untuk mengelola produk, stok, penjualan, pembelian, pemasok, dan laporan. Dibuat dengan Flutter dan API Next.js.",
+      tech: ["Flutter", "Dart", "Next.js", "TypeScript", "Prisma", "MySQL"],
+      type: "UMKM",
+    },
+    {
       title: "Kas-Tracker-Project-Uas",
       desc: "Sistem pelacakan keuangan untuk tugas akhir.",
       tech: ["PHP", "Laravel", "Blade", "Tailwind"],
